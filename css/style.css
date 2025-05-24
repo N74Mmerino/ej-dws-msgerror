@@ -1,0 +1,154 @@
+*{
+	font-family: sans-serif;
+}
+
+.form_01{
+	min-height: 15em;
+	border: 0px solid grey;
+	margin-top: 4em;
+	border-radius: 10px;
+	padding: 1em;
+	box-shadow: 10px 10px 15px grey;
+}
+
+.form_01 h1{
+	font-size: 1.7em;
+	margin-top: 0.2em;
+	
+}
+
+.form_01 input{
+	border-radius: 6px;
+	padding: 0.4em 0.6em;
+	border: 1px solid grey;
+	margin-top: 1em;
+}
+
+.form_01 button{
+	margin-top: 1em;
+	border-radius: 4px;
+	border: none;
+	background: #ccc;
+	font-size: 1.1em;
+	padding: 0.6em 0.8em;
+}
+
+.form_error{
+	margin-bottom: 1em;
+}
+
+.header{
+	min-height: 5em;
+}
+
+.logo{
+	text-transform: uppercase;
+    font-size: 2em;
+    border: 1px solid grey;
+    display: flex;
+    width: max-content;
+    padding: 1em;
+    margin-top: 0.2em;
+    border-radius: 160px;
+    min-width: 3.5em;
+    min-height: 3.5em;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.logo>em{
+    font-size: 0.8em;
+    font-style: italic;
+    color: grey;
+}
+
+.menu{
+    background: #c4c4c4;
+    padding: 0.5em 2.5em;
+    border-radius: 6px;
+}
+
+.menu>li>a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+}
+
+.menu>li>a:hover{
+	color: #2196f3;
+    text-shadow: 0px 6px 5px #746161;
+    transform: scale(1.2);
+    display: block;
+    transition: 0.3s;
+}
+
+.menu>li>a:active{
+	color: #2196f3;
+    text-shadow: 0px 4px 5px #2196f3;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.footer{
+margin-top: 2em;
+}
+
+.footer>.col_4{
+	min-height: 6em;
+}
+
+.redes>li>a>img{
+	width: 3em;
+}
+
+.f-texto{
+	text-align: center;
+}
+
+.submenu{
+	position: relative;
+}
+
+.submenu:hover>ul{
+	height: initial;
+}
+
+.submenu>ul{
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    height: 0px;
+    background: red;
+	overflow: hidden;
+}
+
+
+
+.submenu>ul>li>a{
+    display: flex;
+    min-width: 6em;
+    padding: 0.5em 0.5em;
+}
+
+.submenu>ul>li>a:hover{
+	background: green;
+}
+
+.send_btn:hover{
+	background: #333;
+	cursor: pointer;
+	color: white;
+}
+
+.send_btn:active{
+	background: #ccc;
+	transform: scale(0.95);
+	color: whitesmoke;
+	transition: 0.2s;
+}
+
+.salida{
+	color: red;
+	font-size: 3em;
+}
