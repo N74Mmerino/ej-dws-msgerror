@@ -1,12 +1,12 @@
 <?php 
-$mail ='';
-$name ='';
-$fecha='';
+ $mail ='';
+ $name ='';
+ $fecha='';
 
 
-$msg_mail = '';
-$msg_name = '';
-$msg_fecha ='';
+ $msg_mail = '';
+ $msg_name = '';
+ $msg_fecha ='';
 
 
 	if (isset($_POST['btn_enviar'])) {
@@ -47,7 +47,7 @@ $msg_fecha ='';
 					}
 				}
 			}
-			/*FIN -- Nombre y apellido Validaciones*/
+		/*FIN -- Nombre y apellido Validaciones*/
 
 
         #Fecha
@@ -68,21 +68,21 @@ $msg_fecha ='';
 					}
 				}
 			}
-			/*FIN -- Fecha Validaciones*/
+		/*FIN -- Fecha Validaciones*/
 	}
 ?>
 
 <!DOCTYPE html>
-<html lang="es">
-<head>
+ <html lang="es">
+  <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mensaje de error</title>
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/grid.css">
 	<link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+ </head>
+ <body>
 	<main class="row">
 		<section class="col_12 flex flex-j-c flex-a-c">
 			<form action="" class="form_01 col_3 flex flex-j-c flex-flow-c flex-a-c" method="post">
@@ -91,7 +91,7 @@ $msg_fecha ='';
 
 				<input type="text" name="nm" class="col_10" placeholder="Nombre y apellido" value="<?=$name?>">
 				<div class="form_error"><?=$msg_name?></div>
-
+ 
                 <div class="col_100"></div>
 
 				<label for="fecha_" class="col_10">Fecha:</label>
@@ -103,5 +103,5 @@ $msg_fecha ='';
 			</form>
 		</section>
 	</main>
-</body>
+  </body>
 </html>
